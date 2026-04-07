@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacks Daily | Premium Daily Planner</title>
+    <meta name="description" content="A premium daily productivity tool for the Stacks community. Track your goals with a stunning interface.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container animated">
+        <header>
+            <div class="logo">STACKS DAILY</div>
+            <button class="btn" id="add-task-btn">+ New Task</button>
+        </header>
+
+        <section class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Daily Completion</div>
+                <div class="stat-value" id="completion-rate">0%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Tasks Finished</div>
+                <div class="stat-value" id="tasks-count">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Current Streak</div>
+                <div class="stat-value" id="streak-days">0</div>
+            </div>
+        </section>
+
+        <main class="tasks-section" id="tasks-list">
+            <!-- Tasks will be injected here -->
+            <div class="task-item">
+                <div class="checkbox"></div>
+                <div class="task-text">Initialize project repository</div>
+            </div>
+            <div class="task-item">
+                <div class="checkbox"></div>
+                <div class="task-text">Design premium UI system</div>
+            </div>
+            <div class="task-item">
+                <div class="checkbox"></div>
+                <div class="task-text">Generate 30 commits for development history</div>
+            </div>
+        </main>
+
+        <footer>
+            Built with precision using Vanilla JS & CSS &copy; 2026 Stacks Daily
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
