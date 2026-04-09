@@ -60,3 +60,12 @@ document.querySelector('.event-banner')?.addEventListener('click', () => { alert
 // Enhance stats dynamic loading
 function updateStats() { document.getElementById('tasks-count').innerText = document.querySelectorAll('.task-item').length; }
 setTimeout(updateStats, 500);
+
+// Task addition logic
+document.getElementById('add-task-btn')?.addEventListener('click', () => {
+  const input = document.getElementById('new-task-input');
+  if (input && input.value.trim()) {
+    console.log('Adding task:', input.value);
+    input.value = '';
+  }
+});
