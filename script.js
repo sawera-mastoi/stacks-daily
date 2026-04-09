@@ -53,3 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // Stacks event tracking logic
 function initEventTracking() { console.log('Stacks event tracking enabled'); }
 initEventTracking();
+
+// Add event listener for banner
+document.querySelector('.event-banner')?.addEventListener('click', () => { alert('Navigating to Stacks event page...'); });
