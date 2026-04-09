@@ -183,3 +183,5 @@ footer {
 .task-item:hover { transform: translateY(-2px); background-color: rgba(255, 255, 255, 0.05); }
 
 .event-banner { cursor: pointer; }
+
+.event-footer { font-weight: 500; letter-spacing: 0.5px; opacity: 0.9; }
