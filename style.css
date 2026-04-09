@@ -188,3 +188,6 @@ footer {
 
 .input-group { display: flex; gap: 10px; margin-bottom: 20px; }
 #new-task-input { flex-grow: 1; padding: 10px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 6px; background: rgba(0, 0, 0, 0.2); color: white; }
+
+.theme-toggle { background: transparent; border: none; cursor: pointer; font-size: 1.5rem; transition: transform 0.3s; }
+.theme-toggle:hover { transform: rotate(20deg); }
