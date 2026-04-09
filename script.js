@@ -75,3 +75,6 @@ document.getElementById('theme-toggle')?.addEventListener('click', (e) => {
   document.body.classList.toggle('light-mode');
   e.target.innerText = document.body.classList.contains('light-mode') ? '☀️' : '🌙';
 });
+
+// Simulated wallet connection
+setTimeout(() => { const wb = document.getElementById('wallet-banner'); if(wb) wb.innerText = '✅ Wallet connected via Hiro'; }, 2000);
