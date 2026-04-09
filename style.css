@@ -176,3 +176,5 @@ footer {
 .animated {
   animation: fadeIn 0.8s ease forwards;
 }
+
+.event-banner { background: linear-gradient(90deg, #ff6b6b, #f06595); color: white; text-align: center; padding: 10px; font-weight: bold; border-radius: 0 0 8px 8px; margin-bottom: 20px; }
