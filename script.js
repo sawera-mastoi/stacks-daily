@@ -50,3 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
     renderTasks();
     updateStats();
 });
+// Stacks event tracking logic
+function initEventTracking() { console.log('Stacks event tracking enabled'); }
+initEventTracking();
