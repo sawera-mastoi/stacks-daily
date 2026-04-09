@@ -185,3 +185,6 @@ footer {
 .event-banner { cursor: pointer; }
 
 .event-footer { font-weight: 500; letter-spacing: 0.5px; opacity: 0.9; }
+
+.input-group { display: flex; gap: 10px; margin-bottom: 20px; }
+#new-task-input { flex-grow: 1; padding: 10px; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 6px; background: rgba(0, 0, 0, 0.2); color: white; }
