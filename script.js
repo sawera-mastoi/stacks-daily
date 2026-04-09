@@ -78,3 +78,7 @@ document.getElementById('theme-toggle')?.addEventListener('click', (e) => {
 
 // Simulated wallet connection
 setTimeout(() => { const wb = document.getElementById('wallet-banner'); if(wb) wb.innerText = '✅ Wallet connected via Hiro'; }, 2000);
+
+// Dynamic footer year
+const footer = document.querySelector('.event-footer');
+if(footer) footer.innerHTML = footer.innerHTML.replace('2026', new Date().getFullYear());
