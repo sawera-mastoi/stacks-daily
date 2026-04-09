@@ -56,3 +56,7 @@ initEventTracking();
 
 // Add event listener for banner
 document.querySelector('.event-banner')?.addEventListener('click', () => { alert('Navigating to Stacks event page...'); });
+
+// Enhance stats dynamic loading
+function updateStats() { document.getElementById('tasks-count').innerText = document.querySelectorAll('.task-item').length; }
+setTimeout(updateStats, 500);
