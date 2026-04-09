@@ -69,3 +69,9 @@ document.getElementById('add-task-btn')?.addEventListener('click', () => {
     input.value = '';
   }
 });
+
+// Dark mode toggle
+document.getElementById('theme-toggle')?.addEventListener('click', (e) => {
+  document.body.classList.toggle('light-mode');
+  e.target.innerText = document.body.classList.contains('light-mode') ? '☀️' : '🌙';
+});
